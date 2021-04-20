@@ -6,7 +6,11 @@ class Location {
     var aisle: Int? = null
     var xCoordinate: Int? = null
     var yCoordinate: Int? = null
+    var packageId: Int? = null
+    var amountInLocation: Int? = null
     var occupied: Boolean? = null
     var blocked: Boolean? = null
+
+
 
 }
