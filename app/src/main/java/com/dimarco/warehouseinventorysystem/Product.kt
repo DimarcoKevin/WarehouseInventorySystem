@@ -10,5 +10,17 @@ class Product {
     var name: String? = null
     var description: String? = null
 
+    /**
+     * Full param constructor
+     */
+    constructor(id: Int, barcode: Int, min: Int, max: Int, name: String, desc: String) {
+        this.id = id
+        this.barcode = barcode
+        this.minPerLocation = min
+        this.maxPerLocation = max
+        this.name = name
+        this.description = desc
+    }
+
 
 }
