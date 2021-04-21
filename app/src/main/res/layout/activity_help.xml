@@ -6,42 +6,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/pickText"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pick Function: " />
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/moveText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Move Function: " />
+            <TextView
+                android:id="@+id/pickText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick Function: "
+                android:textSize="30sp" />
 
-        <TextView
-            android:id="@+id/itemText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Add Item Function: " />
+            <TextView
+                android:id="@+id/moveText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Move Function: "
+                android:textSize="30sp" />
 
-        <TextView
-            android:id="@+id/maintenanceText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Maintenance Function: " />
+            <TextView
+                android:id="@+id/itemText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Item Function: "
+                android:textSize="30sp" />
 
-        <TextView
-            android:id="@+id/searchText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Search Function: " />
+            <TextView
+                android:id="@+id/maintenanceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maintenance Function: "
+                android:textSize="30sp" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/searchText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search Function: "
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
