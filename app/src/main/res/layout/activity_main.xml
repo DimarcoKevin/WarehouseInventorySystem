@@ -17,16 +17,16 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/pickButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Pick" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/moveButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Move" />
         </TableRow>
 
         <TableRow
@@ -35,16 +35,29 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/addButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Add Items" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/maintenanceButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Maintenance" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/helpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help!" />
         </TableRow>
 
     </TableLayout>
